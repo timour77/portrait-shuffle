@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Portrait Shuffle privacy policy</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1c1b1f;
+    --muted: #5f5d66;
+    --rule: #d9d7df;
+    --link: #3d5a80;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141318;
+      --text: #e6e1e9;
+      --muted: #a9a5b0;
+      --rule: #3a3841;
+      --link: #9fb8d9;
+    }
+  }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1.5rem 16px 3rem;
+  }
+  h1 { font-size: 1.7rem; line-height: 1.2; margin: 0 0 0.25rem; }
+  h2 { font-size: 1.2rem; line-height: 1.3; margin: 2rem 0 0.5rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+  p, ul { margin: 0.6rem 0; }
+  ul { padding-left: 1.3rem; }
+  li { margin: 0.3rem 0; }
+  .meta { color: var(--muted); margin: 0 0 1.25rem; }
+  .short { margin: 1rem 0; padding: 0.9rem 1rem; border-left: 4px solid var(--link); background: rgba(127, 127, 127, 0.1); }
+  a { color: var(--link); overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main>
+<h1>Portrait Shuffle privacy policy</h1>
+<p class="meta">Last updated: 7 October 2026</p>
+
+<p class="short"><strong>In short:</strong> Portrait Shuffle does not collect, send or share any data. Everything it does with your photos happens on your phone. The app has no internet permission, no account, no ads, no analytics and no crash reporting.</p>
+
+<p>Portrait Shuffle (&ldquo;the app&rdquo;) is an Android app that changes your wallpaper to another photo of the people you choose, each time the screen turns off, hourly or daily. It is made by an individual developer (GitHub: timour77).</p>
+
+<h2>What the app works with, on your phone</h2>
+<ul>
+  <li><strong>Your photos.</strong> The app reads the photos you give it access to: all of your photos if you allow that, only the photos you choose in Android&rsquo;s photo picker, or the selection you allow with Android&rsquo;s &ldquo;Select photos&rdquo;. It only reads them. It never changes, moves or deletes your photos.</li>
+  <li><strong>Faces in those photos.</strong> The app finds faces and groups similar faces into people so you can choose whose photos to show. This is done on the phone, with models that ship inside the app. For each photo it stores where the faces are and a face template (a list of numbers that describes a face) in a database in the app&rsquo;s private storage.</li>
+  <li><strong>What you choose in the app.</strong> The names you give people, which people you selected or excluded, and your settings (how often the wallpaper changes, how far back to look).</li>
+  <li><strong>The wallpaper.</strong> A copy of the current wallpaper at screen size, kept in the app&rsquo;s private storage and drawn as your wallpaper. On Android 8 to 13 the app can also hand that image to Android&rsquo;s own wallpaper service to show it on the lock screen. Apart from this image the app keeps no copies of your photos.</li>
+  <li><strong>Access Android keeps for you.</strong> For photos you picked, Android keeps the permission to read them for the app. You can see and remove it in Android&rsquo;s settings.</li>
+  <li><strong>A notification.</strong> While the app looks through your photos it shows a progress notification with a Stop button.</li>
+</ul>
+
+<h2>What the app does not do</h2>
+<ul>
+  <li>It cannot send anything off your phone: it does not have Android&rsquo;s internet permission.</li>
+  <li>It does not use your location, contacts, microphone, camera or advertising ID.</li>
+  <li>It does not contain advertising, analytics, tracking or crash-reporting code, and it does not sell or share data with anyone.</li>
+  <li>Its data is excluded from Android&rsquo;s cloud backup and from phone-to-phone transfer, so your face data does not move to a new phone. The app looks through your photos again there.</li>
+</ul>
+<p>Because nothing leaves your phone, the developer never receives your photos, face templates, names or choices.</p>
+
+<h2>Your choices</h2>
+<ul>
+  <li><strong>Delete face data</strong> (Settings in the app) removes every face, face template, person, name and selection from your phone. Your photos are not touched.</li>
+  <li>You can take away the app&rsquo;s photo access at any time in Android&rsquo;s settings. The wallpaper then stops changing.</li>
+  <li><strong>Stop</strong> on the progress notification ends the photo scan. It continues the next time you open the app or while the phone charges.</li>
+  <li>Uninstalling the app deletes all of its data.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The app is not aimed at children. It collects no data from anyone, children included. Photos of children in your library are handled on your phone like any other photo.</p>
+
+<h2>This page</h2>
+<p>The app connects to no server. It opens this page in your web browser only when you tap &ldquo;Privacy policy&rdquo; in the app&rsquo;s Settings. The page is hosted on GitHub Pages, and GitHub may log visits to it under its own privacy statement. That is outside the app.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be published at this address with a new date.</p>
+
+<h2>Contact</h2>
+<p>Questions: open an issue at <a href="https://github.com/timour77/portrait-shuffle/issues">github.com/timour77/portrait-shuffle/issues</a>.</p>
+</main>
+</body>
+</html>
